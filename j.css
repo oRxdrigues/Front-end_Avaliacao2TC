@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #e60000, #000000);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header, footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+main {
+    padding: 1em;
+}
+.team-info {
+    display: flex;
+    align-items: center;
+}
+.team-info img {
+    float: left;
+    margin-right: 15px;
+    width: 200px;
+    height: auto;
+    opacity: 0.9;
+}
+h1::after {
+    content: "";
+    color: #00ccff;
+}
+
+p {
+    color: white;
+    font-family: fantasy;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+h2 {
+    color: white;
+    font-family: cursive;
+}
